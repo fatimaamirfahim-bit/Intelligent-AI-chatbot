@@ -1,0 +1,49 @@
+{"intents": [
+    {
+        "tags": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+        "responses" : ["Hello!", "Hey!", "What can I do for you?"]
+    },
+
+    {
+        "tags": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "see you", "talk to you later", "gotta go", "catch you later", "farewell"],
+        "responses": ["Goodbye!", "See you later!", "Have a great day!", "Talk to you soon!"]
+    },
+
+    {
+        "tags": "thanks",
+        "patterns": ["thanks", "thank you", "that's helpful", "thanks a lot", "appreciate it", "thank you so much", "thanks for your help"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!", "Glad I could assist!"]
+    },
+
+    {
+        "tags": "help",
+        "patterns": ["can you help me", "I need help", "help", "what can you do", "assist me", "support", "I need assistance"],
+        "responses": ["Of course! What do you need help with?", "I'd be happy to help! What's on your mind?", "Sure! How can I assist you?"]
+    },
+
+    {
+        "tags": "name",
+        "patterns": ["what is your name", "what should I call you", "what's your name?", "who are you", "can you tell me your name"],
+        "responses": ["I'm Fami!", "You can call me Fami!", "I'm your friendly assistant bot, Fami!"]
+    },
+
+    {
+        "tags": "age",
+        "patterns": ["how old are you", "what's your age", "when were you created", "what is your age?"],
+        "responses": ["I'm just a program, so I don't have an age!", "I exist outside of time!", "Age is just a number for bots like me!"]
+    },
+
+    {
+        "tags": "howareyou",
+        "patterns": ["how are you", "how are you doing", "how do you do", "what's up", "how's it going", "how are things"],
+        "responses": ["I'm doing great, thanks for asking!", "I'm functioning perfectly!", "All systems running smoothly! How about you?", "I'm well! How can I help you today?"]
+    },
+
+    {
+        "tags": "joke",
+        "patterns": ["tell me a joke", "make me laugh", "do you know any jokes", "say something funny", "tell me something funny"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you call a bear with no teeth? A gummy bear!", "I'm better at answering questions than telling jokes, but I tried!"]
+    }
+]}
